@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <link type="text/css" rel="stylesheet" href="css/clock.css">
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+        <link type="text/css" rel="stylesheet" href="css/reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body id="cloudContainer">
+       <img src="img/ground.png" class="ground" alt="ground">
+        <div class="clockface">
+          <div class="hand second animate"></div>
+          <div class="hand minute animate"></div>
+          <div class="hand hour animate"></div>
+          <div class="label label-1">
+          </div>
+          <div class="label label-2">
+          </div>
+          <div class="label label-3">
+          </div>
+          <div class="label label-4">
+          </div>
+          <div class="label label-5">
+          </div>
+          <div class="label label-6">
+          </div>
+          <div class="label label-7">
+          </div>
+          <div class="label label-8">
+          </div>
+          <div class="label label-9">
+          </div>
+          <div class="label label-10">
+          </div>
+          <div class="label label-11">
+          </div>
+          <div class="label label-12">
+          </div>
+        </div>
+        <div class="digital">
+          <div class="hours division">
+            <div class="counter">
+              <div class="digits animate hours_tens">
+                <div class="digit">0</div>
+                <div class="digit">1</div>
+                <div class="digit">2</div>
+                <div class="digit">0</div>
+              </div>
+            </div>
+            <div class="counter">
+              <div class="digits animate hours_units">
+                <div class="digit">0</div>
+                <div class="digit">1</div>
+                <div class="digit">2</div>
+                <div class="digit">3</div>
+                <div class="digit">4</div>
+                <div class="digit">5</div>
+                <div class="digit">6</div>
+                <div class="digit">7</div>
+                <div class="digit">8</div>
+                <div class="digit">9</div>
+                <div class="digit">0</div>
+              </div>
+            </div>
+          </div>
+          <div class="minutes division">
+            <div class="counter">
+              <div class="digits animate minutes_tens">
+                <div class="digit">0</div>
+                <div class="digit">1</div>
+                <div class="digit">2</div>
+                <div class="digit">3</div>
+                <div class="digit">4</div>
+                <div class="digit">5</div>
+                <div class="digit">0</div>
+              </div>
+            </div>
+            <div class="counter">
+              <div class="digits animate minutes_units">
+                <div class="digit">0</div>
+                <div class="digit">1</div>
+                <div class="digit">2</div>
+                <div class="digit">3</div>
+                <div class="digit">4</div>
+                <div class="digit">5</div>
+                <div class="digit">6</div>
+                <div class="digit">7</div>
+                <div class="digit">8</div>
+                <div class="digit">9</div>
+                <div class="digit">0</div>
+              </div>
+            </div>
+          </div>
+          <div class="seconds division">
+            <div class="counter">
+              <div class="digits animate seconds_tens">
+                <div class="digit">0</div>
+                <div class="digit">1</div>
+                <div class="digit">2</div>
+                <div class="digit">3</div>
+                <div class="digit">4</div>
+                <div class="digit">5</div>
+                <div class="digit">0</div>
+              </div>
+            </div>
+            <div class="counter">
+              <div class="digits animate seconds_units">
+                <div class="digit">0</div>
+                <div class="digit">1</div>
+                <div class="digit">2</div>
+                <div class="digit">3</div>
+                <div class="digit">4</div>
+                <div class="digit">5</div>
+                <div class="digit">6</div>
+                <div class="digit">7</div>
+                <div class="digit">8</div>
+                <div class="digit">9</div>
+                <div class="digit">0</div>
+              </div>
+            </div>
+          </div>
+          <h1 class="cet">Currently Central European Time (CET), UTC +1</h1>
+        </div>
+        
+        <script src="js/clock.js"></script>
+        <script src="js/change-theme.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js">
+        </script>
+        <script src="js/animate.js"></script>
+    </body>
+</html>

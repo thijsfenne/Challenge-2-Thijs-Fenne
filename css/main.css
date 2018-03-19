@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+
+.cet {
+    font-size: 1em;
+    margin-top: 30px;
+    font-family: 'Expletus Sans', cursive;
+}
+
+#cloudContainer {
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    width:100%;
+  overflow:hidden;
+    
+}
+.ground {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.cloud {
+    position:absolute;
+    width: 200px;
+/*    height:50px; */
+/*    border-radius:50%;*/
+/*    background-color:white;*/
+    z-index: ;
+} 
+
+@media screen and (min-width: 720px) {
+    
+    .cet {
+        font-size: 2em;
+    }
+    
+    .ground {
+        bottom: -100px;
+    }
+
+}
+
+@media screen and (min-width: 1015px) {
+    
+    .cet {
+        font-size: 2em;
+    }
+    
+    .ground {
+        bottom: -200px;
+    }
+
+}
+
+@media screen and (min-width: 1325px) {
+    
+    .cet {
+        font-size: 2em;
+    }
+    
+    .ground {
+        bottom: -300px;
+    }
+
+}
+
+@media screen and (min-width: 1625px) {
+    
+    .cet {
+        font-size: 2em;
+    }
+    
+    .ground {
+        bottom: -350px;
+    }
+
+}
